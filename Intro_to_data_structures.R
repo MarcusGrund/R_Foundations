@@ -16,6 +16,7 @@ mymatrix <- matrix(c(1,2,3, 11,12,13), nrow = 2, ncol = 3, byrow = TRUE,
 #mymatrix[row,column]
 mymatrix[2,3]
 mymatrix[,c(2)]
+mymatrix[1:2,]
 
 mybigmatrix = matrix(c(seq(from=-98,to=100,by=2)), nrow = 10, ncol = 10)
 #get mean of all columns
