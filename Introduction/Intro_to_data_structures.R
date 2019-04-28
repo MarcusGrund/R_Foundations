@@ -1,12 +1,12 @@
-#data structures
+# Data structures ---------------------------------------------------------
 
-##vector
+# vector ------------------------------------------------------------------
 #holding single data types
 #in one dimension
 myvector <- c(8, 6, 9, 10, 5)
 myvector[1]
 
-##matrix
+# matrix ------------------------------------------------------------------
 #having two dimensions, combination of multiple vectors
 #columns holding the vectors byrow=False (default)
 #rows holding the vectors byrow=TRUE
@@ -26,7 +26,8 @@ apply(mybigmatrix,MARGIN = 1,sum)
 #custom function
 apply(mybigmatrix,1,function(x) mean(x[x>=0]))
 
-##list
+
+# list --------------------------------------------------------------------
 #holding multiple data types
 #in one dimension
 mysimplelist = list("A", 3, TRUE)
