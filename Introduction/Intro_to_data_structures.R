@@ -7,13 +7,13 @@ myvector <- c(8, 6, 9, 10, 5)
 myvector[1]
 
 # matrix ------------------------------------------------------------------
-#having two dimensions, combination of multiple vectors
+#having two dimensions, combination of vectors having the same type
 #columns holding the vectors byrow=False (default)
 #rows holding the vectors byrow=TRUE
 mymatrix <- matrix(c(1,2,3, 11,12,13), nrow = 2, ncol = 3, byrow = TRUE, 
                    dimnames = list(c("row1", "row2"), 
                                    c("C.1", "C.2", "C.3")))
-#mymatrix[row,column]
+#mymatrix[rows,columns]
 mymatrix[2,3]
 mymatrix[,c(2)]
 mymatrix[1:2,]
