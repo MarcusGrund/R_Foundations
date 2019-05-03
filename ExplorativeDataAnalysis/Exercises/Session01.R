@@ -27,10 +27,10 @@ z = x+y # Funktioniert, weil 9 ein Vielfaches von 3 ist.
 3:10
 
 #1.0 1.5 2.0 2.5 3.0 3.5 4.0 4.5 5.0 5.5 6.0
-seq(from = 1,to = 6,by = 0.5)
+seq(from=1, to=6, by=0.5)
 
 #1.000000 1.555556 2.111111 2.666667 3.222222 3.777778 4.333333 4.888889 5.444444 6.000000
-seq(from = 1, to = 6, length.out = 10)
+seq(from=1, to=6, length.out=10)
 
 my_txt_data = read.table("../Data/TN_Datensatz_beide_Kurse.txt")
 Koerpergroesse = my_txt_data$Koerpergroesse
