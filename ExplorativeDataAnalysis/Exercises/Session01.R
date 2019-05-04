@@ -75,8 +75,8 @@ sum(138:379)
 hist(Koerpergroesse)
 boxplot(Koerpergroesse)
 
-#Augenfarbe, Haarfarbe, Geschlecht: Nominalskala
-#Statistiknote: Intervallskala
-#Körpergröße, Schuhgröße, Haarlänge: Rationalskala
+#Augenfarbe, Haarfarbe, Geschlecht: Nominalskala (modus)
+#Statistiknote: Intervallskala (median)
+#Körpergröße, Schuhgröße, Haarlänge: Rationalskala (mean)
 #Für alle Variablen der Rationalskala darf ein Mittelwert gebildet werden.
 
