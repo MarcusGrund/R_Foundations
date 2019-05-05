@@ -1,6 +1,8 @@
 getwd()
 setwd("./ExplorativeDataAnalysis/Exercises")
 
+# Read data ---------------------------------------------------------------
+
 my_txt_data <- read.table("../Data/TN_Datensatz_beide_Kurse.txt")
 koerpergroesse <- my_txt_data$Koerpergroesse
 schuhgroesse <- my_txt_data$Schuhgroesse
@@ -10,7 +12,8 @@ haarfarbe <- my_txt_data$Haarfarbe
 geschlecht <- my_txt_data$Geschlecht
 statistiknote <- my_txt_data$Statistiknote
 
-#scatterplot
+# Scatterplot -------------------------------------------------------------
+
 plot(koerpergroesse, schugroesse, xlab="Körpergröße [cm]", ylab="Schuhgröße [Pariser Stich]", main="Verhältnis der Körper und Schuhgröße")
 
 niederschlag <- c(56.8, 32.4, 88.9, 129.2, 27.2, 19.8, 41.3, 40.7, 85.7, 71.4, 36.3, 55.2)
